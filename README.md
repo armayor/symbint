@@ -20,7 +20,7 @@ As regards the integration algorithm, the key programs are `HermiteReduce.py`, `
 
 ## Notes
 
-Please understand that this is the result of many hours of work and that there might still be errors. I have tried to produce a readable code, and although it is not full of comments, it should not be too difficult to follow. I am a student of Mathematics and Physics, so please take that into consideration when judging my code. All the coding in python is my own work, exceptuating the algorithms such as Yun's squarefree factorization, subresultant computation, Hermite reduction, etc. which are obviously the work of other people.
+Please understand that this is the result of many hours of work and that there might still be errors. I have tried to produce a readable code, and although it is not full of comments, it should not be too difficult to follow. I am a student of Mathematics and Physics, so please take that into consideration when judging my code. All the coding in python is my own work, with the exception of the algorithms such as Yun's squarefree factorization, subresultant computation, Hermite reduction, etc. which are obviously the work of other people.
 
 The program has been tested with polynomials and easy quotients of polynomials. Please note that some polynomials with large coefficients might result in the program not working. This is a known issue and it is due to the fact that, when computing the resultant with `subresultant.py` huge numbers may appear and I have not been able to store them appropriately.
 
