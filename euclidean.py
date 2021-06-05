@@ -161,12 +161,12 @@ def EEDio(pol1,pol2, pol3):
 ############################## TESTING ##############################
 #####################################################################
 
-p1 = convert(['1', '3'])
-p2 = convert(['1', '-3'])
-p3 = convert(['-17', '0', '83'])
+#p1 = convert(['1', '3'])
+#p2 = convert(['1', '-3'])
+#p3 = convert(['-17', '0', '83'])
 #p1 = ['16', '4', ['/', '1', '4']]
-s = EEDio(p1,p2,p3)[0]
-t = EEDio(p1,p2,p3)[1]
-print(polsum(polprod(s,p1), polprod(t,p2)))
-print(EEDio(p1,p2,p3))
+#s = EEDio(p1,p2,p3)[0]
+#t = EEDio(p1,p2,p3)[1]
+#print(polsum(polprod(s,p1), polprod(t,p2)))
+#print(EEDio(p1,p2,p3))
 #print(polprod(p2,EEDio(p1,p2,p3)[1] ))
